@@ -1,0 +1,17 @@
+{
+  "name": "aprenderBootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass ./sass/custom.scss ./css/custom.css",
+    "build": "purgecss --css css/custom.css --content index.html -o css/reducido.css "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "node-sass": "^5.0.0"
+  }
+}
